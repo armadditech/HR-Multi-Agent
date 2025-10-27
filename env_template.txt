@@ -1,0 +1,8 @@
+# Azure OpenAI Configuration Template
+# Copy this file to .env and replace with your actual Azure OpenAI service details
+# Or set these as environment variables in your system
+
+ENDPOINT_URL=https://your-resource-name.openai.azure.com/
+DEPLOYMENT_NAME=your-deployment-name
+AZURE_OPENAI_API_KEY=your-api-key-here
+API_VERSION=2024-02-15-preview
