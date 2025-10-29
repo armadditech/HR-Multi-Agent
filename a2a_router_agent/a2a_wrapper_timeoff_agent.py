@@ -15,7 +15,7 @@ import json
 
 #Import the HR timeoff Agent implementation in this wrapper
 sys.path.append(os.path.abspath(os.path.join(
-            os.path.dirname(__file__), '../chapter4')))
+            os.path.dirname(__file__), '../hr_timeoff_agent')))
 import timeoff_agent
 
 class TimeoffAgentExecutor(AgentExecutor):

@@ -15,7 +15,7 @@ import json
 
 #Import the HR policy Agent implementation in this wrapper
 sys.path.append(os.path.abspath(os.path.join(
-            os.path.dirname(__file__), '../chapter3')))
+            os.path.dirname(__file__), '../hr_policy_agent')))
 import hr_policy_agent
 
 class HRPolicyAgentExecutor(AgentExecutor):
